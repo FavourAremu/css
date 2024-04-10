@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Personal Website</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  header {
+    background-color: #3498db;
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+  }
+  
+  section {
+    background-color: #f2f2f2;
+    padding: 30px;
+    margin: 20px;
+  }
+  
+  .skills {
+    margin-top: 20px;
+  }
+  
+  .contact {
+    background-color: #2ecc71;
+    padding: 30px;
+    margin-top: 20px;
+    color: #fff;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    section {
+      margin: 10px;
+    }
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Your Name</h1>
+</header>
+
+<section id="introduction">
+  <h2>Introduction</h2>
+  <p>Hello, I'm [Your Name]. I'm passionate about [your field/interests]. With [X] years of experience, I have developed a strong skill set in [skills]. I'm excited to [what you're excited to do, e.g., collaborate, learn, etc.].</p>
+</section>
+
+<section id="skills" class="skills">
+  <h2>Skills</h2>
+  <ul>
+    <li>Skill 1</li>
+    <li>Skill 2</li>
+    <li>Skill 3</li>
+    <!-- Add more skills as needed -->
+  </ul>
+</section>
+
+<section id="contact" class="contact">
+  <h2>Contact Information</h2>
+  <ul>
+    <li>Email: example@example.com</li>
+    <li>Social Media:
+      <ul>
+        <li><a href="#">Twitter</a></li>
+        <li><a href="#">LinkedIn</a></li>
+        <!-- Add more social media links as needed -->
+      </ul>
+    </li>
+  </ul>
+</section>
+
+</body>
+</html>
